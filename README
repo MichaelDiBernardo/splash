@@ -1,0 +1,59 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+		     SPLASH Documentation
+                      Michael DiBernardo
+		      mikedebo@gmail.com
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+OVERVIEW
+    Splash is a 3D Pacman-like game. Petrie, everyone's favorite 
+    Plesiosaur, has lost his family and friends to a horrible zombie
+    plague that affects only aquatic dinosaurs! To save them, he must
+    eat a whole bunch of small black dots before he is caught and
+    turned into a zombie himself! Only then will Petrie be able to
+    stop and wonder how a series of black shiny dots could have such
+    a profound effect on the continuance of his species.
+
+    Petrie is much faster than his zombified kin once he hits top
+    speed, but his pursuers are relentless! Luckily, magic gems
+    scattered throughout the ocean can temporarily grant him special
+    powers.
+
+GAME MECHANICS
+    Each level is populated with one or more enemy dinos, some power-
+    ups (coloured diamonds), and many small black spheres called 
+    'dots'. The enemy dinos will chase you incessantly. Your job is to
+    grab all of the dots in the level before you are caught, and to do so
+    quickly enough to beat the level's 'par'. If you clear a level in the
+    specified amount of time, the next level will be unlocked.
+
+    The zombie dinos (the red ones) will mindlessly chase Petrie. If
+    Petrie is caught, the game is over. 
+
+    There are three powerups that you can grab to give you a temporary
+    (5 second) advantage. These powerups take the form of coloured
+    diamonds that float above the water. 
+
+    Speed Boost: Green diamonds will double your top speed.
+    Flash Freeze: Blue diamonds will stop all zombies from moving.
+    Repellant: Red diamonds will make all zombies flee from you.
+
+PLAYING THE GAME
+    Splash can be compiled on Mac OS/X or Linux machines.
+    See the makefile for details. 
+
+    At the command line, type 'make'. Once the game is finished building, just
+    type './game' to play.
+
+CONTROLS:
+    Up arrow    -   Accelerate forwards
+    Down arrow  -   Accelerate backwards
+    Left arrow  -   Turn left
+    Right arrow -   Turn right
+    X           -   Zoom in
+    Z           -   Zoom out
+    S           -   Raise camera
+    A           -   Lower camera
+    + or =      -   Increase game speed (lower frame rate)
+    - or _      -   Reduce game speed (increase frame rate)
+    Space       -   Pause game
+    Esc         -   Quit game
