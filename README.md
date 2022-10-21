@@ -1,3 +1,6 @@
+Splash
+======
+
 Splash is a simple 3D videogame that I wrote in C++ and OpenGL in 2007. 
 
 ## History
